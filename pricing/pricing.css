@@ -1,0 +1,497 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+ background-color:#484a4f  ;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+.menu{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+}
+button{width: 25%;
+    height: 46px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 6%;}
+img{width: 20%;}
+.menu ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.menu li{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    list-style: none;
+    font-style: normal;
+  transition: all 500ms;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px 0;
+    color: white;
+
+}
+footer{
+    justify-content: space-between;
+   display: flex;
+   font-size: 20px;
+   height: 420px;
+   background-color: #484a4f;
+   color: white;
+   width: 100%;
+}
+h4{font-size: 30px;
+font-style: italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.pp{
+   font-size: 15px;
+}
+.cdao{
+   width: 36%;
+   left: 20%;
+   
+}
+
+.A{width: 28px;
+height: 30px;}
+
+
+
+button{width: 95px;
+    height: 46px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 6px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+/* ------------------------------binta------------ */
+
+
+
+ .price p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+.price{
+    /* width: 100%; */
+    background-color: rgb(177, 170, 170);
+    height: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 10px;
+    text-align: center;
+}
+/*----1-------------------------------------------------*/
+
+
+.free{
+    height: 350px;
+    background-color:  rgba(24, 3, 3, 0.945);
+    /* text-align: center; */
+    width: 270px;
+    line-height: 25px;
+    color: white;
+}
+.free h2{
+    text-align: center;
+    color: white;
+}
+
+.free p{
+    text-align: center;
+    padding-left: 1px;
+}
+
+button{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.un p{
+    padding-left: 1px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+span{
+    font-size: 25px;    
+}
+
+/*--------2-----------------------------------------*/
+
+.agency{
+    height: 350px;
+    background-color:   rgba(24, 3, 3, 0.945);
+    /* text-align: center; */
+    width: 270px;
+    line-height: 25px;
+    color: white;
+}
+.agency h2{
+    text-align: center;
+    color: white;
+}
+
+.agency p{
+    text-align: center;
+    padding-left: 1px;
+}
+
+button{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.deux p{
+    padding-left: 1px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+span{
+    font-size: 25px;    
+}
+
+
+/*-----------3--------------------------------------*/
+
+.basic{
+    height: 350px;
+    background-color:   rgba(24, 3, 3, 0.945);
+    /* text-align: center; */
+    width: 270px;
+    line-height: 25px;
+    color: white;
+}
+.basic h2{
+    text-align: center;
+    color: white;
+}
+
+.basic p{
+    text-align: center;
+    padding-left: 1px;
+}
+
+button{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.deux p{
+    padding-left: 1px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+span{
+    font-size: 25px;    
+}
+
+
+/*--------------------------4-----------------------*/
+
+.entreprise{
+    height: 350px;
+    background-color:   rgba(24, 3, 3, 0.945);
+    /* text-align: center; */
+    width: 270px;
+    line-height: 25px;
+    color: white;
+}
+.entreprise h2{
+    text-align: center;
+    color: white;
+}
+
+.entreprise p{
+    text-align: center;
+    padding-left: 1px;
+}
+
+button{
+    text-align: center;
+    margin-left: 100px;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 2px;
+}
+span{
+    font-size: 25px;    
+}
+
+
+.container{ 
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.word{
+    text-align: center;
+}
+
+.word2{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.word2 button{
+    width: 105px;
+    height: 37px;
+    margin: auto;
+    background-color:  rgb(78, 76, 76);
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.word2 p{
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+@media (max-width: 800px ) {
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .free{
+        margin-top: 60px;
+    }
+
+    .agency{
+        margin-top: 60px;
+    }
+
+    .basic{
+        margin-top: 60px;
+    }
+
+    .entreprise{
+        margin-top: 60px;
+    }
+    
+}
+
+@media only screen and (max-width:730px){
+    footer{flex-direction: column;
+      align-items: center;
+  justify-content: center;
+  height: 1250px;}
+  
+  
+    .bttt{
+        width: 120%;
+        margin-left: 110%;
+        margin-top: -80%;
+        display: flex;
+    }
+    .menu a{
+        
+        font-size: 17px;
+        text-decoration: none;
+        padding:-20px 55px;
+        margin: 20px;
+        color: white;
+        margin-left: -160px;
+        
+        justify-content: space-between;
+    
+    }
+    .menu a:hover{
+        cursor: pointer 20px;
+        width: 30px;
+        color: cadetblue;
+        width: 50px;
+        height: 10px;
+        background-color: aliceblue;
+    }
+    .menu a:focus{
+        width: 60px;
+        cursor: pointer 20px;
+        font-size: 20px ;
+        color: cadetblue;
+        
+        
+    } 
+   }
+    
+  @media only screen and (max-width:600px){
+  
+  
+    .menu a{
+        
+        font-size: 15px;
+        text-decoration: none;
+        padding:-50px -65px;
+        margin: 5px;
+        color: white;
+        margin-left: -20px;
+        justify-content: space-between;
+        flex-direction: column;
+    
+        
+    }
+     }
+  
+    @media only screen and (max-width:1140px){
+        hr{
+          margin-left:20%;
+          width: 63%;
+        }
+        .AS{
+          display: flex;
+          background-image: url("ass.jpg");
+          /* width: 100%; */
+          height: 600px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+      }
+      .LO{
+          width:80%;
+          margin-top: 20%;
+          margin-left: 10%;
+          }
+          .exp{
+              margin-left: 5%;
+          }
+          .sqr{
+              flex-direction: column;
+              width: 95%;
+              margin-top: -10%;
+          }
+          .racine{
+                  width: 90%;
+                  margin-left:10% ;
+          align-items: center;
+          justify-content: center;
+          }
+          .tech{
+              flex-direction: column;
+              width: 100%;
+          }
+          #tec{
+              width: 70%;
+              margin-left: 30%;
+          }
+          #tof{width: 100%;}
+          .clan{
+              width: 90%;
+          }
+          #MOTEUR{width: 70%;}
+          .nt{
+      
+              justify-content: center;
+              align-items: center;
+              width: 70%;
+              margin-left: 20%;
+          }
+          .FEAT{
+              font-size: 32px;
+              width: 100%;
+          
+          }
+          
+          .BAQ{font-size: 183%;
+              font-weight: 90;
+              font-family:  sans-serif;
+              width: 100%;}
+          .QA{font-size: 143%;}
+          .menu{
+              width: 55%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              color: white;
+           font-size: 13px;
+          }
+      
+          .cat{width: 100%;
+          flex-direction: column;}
+          .ntel{ font-size: 180%;}
+          .nul{font-size: 140%;}
+      
+      }
+    
+       
+    
+   
